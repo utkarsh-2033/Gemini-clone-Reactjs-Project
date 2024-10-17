@@ -1,0 +1,86 @@
+.sidebar{
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #1e1f20;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #E3E3E3;
+    font-size: 14px;
+}
+
+.sidebar img{
+    width: 20px;
+    filter: invert(1);
+}
+
+.sidebar button{
+    outline: none;
+    color: #E3E3E3;
+    border: none;
+    background-color: #1e1f20;
+}
+
+.menu span{
+    width:32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.menu{
+    height: 100px;
+    
+}
+
+.menu span:hover{
+    background-color: #2e2f30;
+}
+
+.menu img{
+    margin: 0;
+}
+
+.sidebar .new-chat button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#444746;
+    border-radius: 9999px;
+    background-color: #131314;
+    padding: 8px 16px 8px 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+.sidebar .new-chat button:hover{
+    background-color: #2e2f30;
+}
+
+.sidebar .action{
+    width: 100%;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    border-radius: 50px;
+    color: #E3E3E3;
+    font-size: 16px;
+    padding: 8px 0px 8px 8px;
+}
+.sidebar .action:hover{
+    background-color: #38393a;
+}
+
+@media (max-width: 600px) {
+
+    .sidebar{
+        display: none;
+    }
+   
+  }
+  
